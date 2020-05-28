@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B048B5224209C380027C829 /* InsertSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B048B5124209C380027C829 /* InsertSQL.swift */; };
+		4B048B542420A50D0027C829 /* DeleteSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B048B532420A50D0027C829 /* DeleteSQL.swift */; };
+		4B048B562420A5E70027C829 /* SelectSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B048B552420A5E70027C829 /* SelectSQL.swift */; };
+		4B048B582420A64B0027C829 /* Emoda_diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B048B572420A64A0027C829 /* Emoda_diary.swift */; };
+		4B35163C247CE1460033937F /* PushAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35163B247CE1460033937F /* PushAlertViewController.swift */; };
+		4B746464241FBC9100C1FEB7 /* soso.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B746463241FBC9100C1FEB7 /* soso.png */; };
+		4B7464662420645400C1FEB7 /* InsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7464652420645400C1FEB7 /* InsertViewController.swift */; };
+		4B74646A2420733F00C1FEB7 /* SettingSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7464692420733F00C1FEB7 /* SettingSQL.swift */; };
+		4B8F4C112421DB8C0069392E /* UpdateSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F4C102421DB8C0069392E /* UpdateSQL.swift */; };
+		4BC20F20241F123F00B2C8F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC20F1F241F123F00B2C8F1 /* AppDelegate.swift */; };
+		4BC20F22241F123F00B2C8F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC20F21241F123F00B2C8F1 /* SceneDelegate.swift */; };
+		4BC20F24241F123F00B2C8F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC20F23241F123F00B2C8F1 /* ViewController.swift */; };
+		4BC20F27241F123F00B2C8F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC20F25241F123F00B2C8F1 /* Main.storyboard */; };
+		4BC20F2A241F123F00B2C8F1 /* Calander01.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BC20F28241F123F00B2C8F1 /* Calander01.xcdatamodeld */; };
+		4BC20F2C241F124000B2C8F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC20F2B241F124000B2C8F1 /* Assets.xcassets */; };
+		4BC20F2F241F124000B2C8F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC20F2D241F124000B2C8F1 /* LaunchScreen.storyboard */; };
+		4BD89AA5247CA9610050EE49 /* BasicBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD89AA2247CA9610050EE49 /* BasicBarChart.swift */; };
+		4BD89AA6247CA9610050EE49 /* BasicBarChartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD89AA3247CA9610050EE49 /* BasicBarChartPresenter.swift */; };
+		4BD89AA7247CA9610050EE49 /* BasicBarEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD89AA4247CA9610050EE49 /* BasicBarEntry.swift */; };
+		4BD89AAC247CA9730050EE49 /* BeautifulBarEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD89AA9247CA9730050EE49 /* BeautifulBarEntry.swift */; };
+		4BD89AAD247CA9730050EE49 /* BeautifulBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD89AAA247CA9730050EE49 /* BeautifulBarChart.swift */; };
+		4BD89AAE247CA9730050EE49 /* BeautifulBarChartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD89AAB247CA9730050EE49 /* BeautifulBarChartPresenter.swift */; };
+		4BD89AB5247CA9840050EE49 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD89AB0247CA9840050EE49 /* ArrayExtension.swift */; };
+		4BD89AB6247CA9840050EE49 /* CALayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD89AB1247CA9840050EE49 /* CALayerExtension.swift */; };
+		4BD89AB7247CA9840050EE49 /* DataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD89AB2247CA9840050EE49 /* DataEntry.swift */; };
+		4BD89AB8247CA9840050EE49 /* UIBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD89AB3247CA9840050EE49 /* UIBezierPathExtension.swift */; };
+		4BD89AB9247CA9840050EE49 /* CustomSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD89AB4247CA9840050EE49 /* CustomSegments.swift */; };
+		4BD89ABB247CAADB0050EE49 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD89ABA247CAADB0050EE49 /* BarChartViewController.swift */; };
+		5868363BDD674EC0367B2D58 /* Pods_Calander01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5935615FEE1AA77D12841AF3 /* Pods_Calander01.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B048B5124209C380027C829 /* InsertSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSQL.swift; sourceTree = "<group>"; };
+		4B048B532420A50D0027C829 /* DeleteSQL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteSQL.swift; sourceTree = "<group>"; };
+		4B048B552420A5E70027C829 /* SelectSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSQL.swift; sourceTree = "<group>"; };
+		4B048B572420A64A0027C829 /* Emoda_diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoda_diary.swift; sourceTree = "<group>"; };
+		4B35163B247CE1460033937F /* PushAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushAlertViewController.swift; sourceTree = "<group>"; };
+		4B746463241FBC9100C1FEB7 /* soso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soso.png; sourceTree = "<group>"; };
+		4B7464652420645400C1FEB7 /* InsertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertViewController.swift; sourceTree = "<group>"; };
+		4B7464692420733F00C1FEB7 /* SettingSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSQL.swift; sourceTree = "<group>"; };
+		4B8F4C102421DB8C0069392E /* UpdateSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateSQL.swift; sourceTree = "<group>"; };
+		4BC20F1C241F123F00B2C8F1 /* Calander01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calander01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC20F1F241F123F00B2C8F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BC20F21241F123F00B2C8F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4BC20F23241F123F00B2C8F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BC20F26241F123F00B2C8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BC20F29241F123F00B2C8F1 /* Calander01.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Calander01.xcdatamodel; sourceTree = "<group>"; };
+		4BC20F2B241F124000B2C8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BC20F2E241F124000B2C8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BC20F30241F124100B2C8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD89AA2247CA9610050EE49 /* BasicBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicBarChart.swift; sourceTree = "<group>"; };
+		4BD89AA3247CA9610050EE49 /* BasicBarChartPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicBarChartPresenter.swift; sourceTree = "<group>"; };
+		4BD89AA4247CA9610050EE49 /* BasicBarEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicBarEntry.swift; sourceTree = "<group>"; };
+		4BD89AA9247CA9730050EE49 /* BeautifulBarEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulBarEntry.swift; sourceTree = "<group>"; };
+		4BD89AAA247CA9730050EE49 /* BeautifulBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulBarChart.swift; sourceTree = "<group>"; };
+		4BD89AAB247CA9730050EE49 /* BeautifulBarChartPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautifulBarChartPresenter.swift; sourceTree = "<group>"; };
+		4BD89AB0247CA9840050EE49 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		4BD89AB1247CA9840050EE49 /* CALayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
+		4BD89AB2247CA9840050EE49 /* DataEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataEntry.swift; sourceTree = "<group>"; };
+		4BD89AB3247CA9840050EE49 /* UIBezierPathExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBezierPathExtension.swift; sourceTree = "<group>"; };
+		4BD89AB4247CA9840050EE49 /* CustomSegments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegments.swift; sourceTree = "<group>"; };
+		4BD89ABA247CAADB0050EE49 /* BarChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
+		5935615FEE1AA77D12841AF3 /* Pods_Calander01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calander01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A431A3EF205900231F2C00F2 /* Pods-Calander01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calander01.debug.xcconfig"; path = "Target Support Files/Pods-Calander01/Pods-Calander01.debug.xcconfig"; sourceTree = "<group>"; };
+		AC30B4484AC5516BE8D20A4F /* Pods-Calander01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calander01.release.xcconfig"; path = "Target Support Files/Pods-Calander01/Pods-Calander01.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BC20F19241F123F00B2C8F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5868363BDD674EC0367B2D58 /* Pods_Calander01.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45992DCDC521B6BAF55A355F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A431A3EF205900231F2C00F2 /* Pods-Calander01.debug.xcconfig */,
+				AC30B4484AC5516BE8D20A4F /* Pods-Calander01.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B74646724206BAD00C1FEB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4B7464652420645400C1FEB7 /* InsertViewController.swift */,
+				4BC20F23241F123F00B2C8F1 /* ViewController.swift */,
+				4BD89ABA247CAADB0050EE49 /* BarChartViewController.swift */,
+				4B35163B247CE1460033937F /* PushAlertViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4B74646824206BCB00C1FEB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B8F4C5B242321450069392E /* SQLite */,
+				4B048B572420A64A0027C829 /* Emoda_diary.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B8F4C122422111D0069392E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4BC20F25241F123F00B2C8F1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B8F4C5B242321450069392E /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				4B048B532420A50D0027C829 /* DeleteSQL.swift */,
+				4B048B5124209C380027C829 /* InsertSQL.swift */,
+				4B048B552420A5E70027C829 /* SelectSQL.swift */,
+				4B8F4C102421DB8C0069392E /* UpdateSQL.swift */,
+				4B7464692420733F00C1FEB7 /* SettingSQL.swift */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		4BC20F13241F123F00B2C8F1 = {
+			isa = PBXGroup;
+			children = (
+				4BC20F1E241F123F00B2C8F1 /* Calander01 */,
+				4BC20F1D241F123F00B2C8F1 /* Products */,
+				45992DCDC521B6BAF55A355F /* Pods */,
+				585263ABF0557EB20BA5313A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4BC20F1D241F123F00B2C8F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BC20F1C241F123F00B2C8F1 /* Calander01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BC20F1E241F123F00B2C8F1 /* Calander01 */ = {
+			isa = PBXGroup;
+			children = (
+				4BD89AA0247CA93F0050EE49 /* BarChart */,
+				4B74646824206BCB00C1FEB7 /* Model */,
+				4B8F4C122422111D0069392E /* View */,
+				4B74646724206BAD00C1FEB7 /* Controller */,
+				4BC20F1F241F123F00B2C8F1 /* AppDelegate.swift */,
+				4BC20F21241F123F00B2C8F1 /* SceneDelegate.swift */,
+				4BC20F2B241F124000B2C8F1 /* Assets.xcassets */,
+				4BC20F2D241F124000B2C8F1 /* LaunchScreen.storyboard */,
+				4B746463241FBC9100C1FEB7 /* soso.png */,
+				4BC20F30241F124100B2C8F1 /* Info.plist */,
+				4BC20F28241F123F00B2C8F1 /* Calander01.xcdatamodeld */,
+			);
+			path = Calander01;
+			sourceTree = "<group>";
+		};
+		4BD89AA0247CA93F0050EE49 /* BarChart */ = {
+			isa = PBXGroup;
+			children = (
+				4BD89AAF247CA9750050EE49 /* Shared */,
+				4BD89AA8247CA9670050EE49 /* BeautifulChart */,
+				4BD89AA1247CA9560050EE49 /* BasicChart */,
+			);
+			path = BarChart;
+			sourceTree = "<group>";
+		};
+		4BD89AA1247CA9560050EE49 /* BasicChart */ = {
+			isa = PBXGroup;
+			children = (
+				4BD89AA2247CA9610050EE49 /* BasicBarChart.swift */,
+				4BD89AA3247CA9610050EE49 /* BasicBarChartPresenter.swift */,
+				4BD89AA4247CA9610050EE49 /* BasicBarEntry.swift */,
+			);
+			path = BasicChart;
+			sourceTree = "<group>";
+		};
+		4BD89AA8247CA9670050EE49 /* BeautifulChart */ = {
+			isa = PBXGroup;
+			children = (
+				4BD89AAA247CA9730050EE49 /* BeautifulBarChart.swift */,
+				4BD89AAB247CA9730050EE49 /* BeautifulBarChartPresenter.swift */,
+				4BD89AA9247CA9730050EE49 /* BeautifulBarEntry.swift */,
+			);
+			path = BeautifulChart;
+			sourceTree = "<group>";
+		};
+		4BD89AAF247CA9750050EE49 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4BD89AB0247CA9840050EE49 /* ArrayExtension.swift */,
+				4BD89AB1247CA9840050EE49 /* CALayerExtension.swift */,
+				4BD89AB4247CA9840050EE49 /* CustomSegments.swift */,
+				4BD89AB2247CA9840050EE49 /* DataEntry.swift */,
+				4BD89AB3247CA9840050EE49 /* UIBezierPathExtension.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		585263ABF0557EB20BA5313A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5935615FEE1AA77D12841AF3 /* Pods_Calander01.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BC20F1B241F123F00B2C8F1 /* Calander01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC20F33241F124100B2C8F1 /* Build configuration list for PBXNativeTarget "Calander01" */;
+			buildPhases = (
+				44BB6E4D14C43A74C0224802 /* [CP] Check Pods Manifest.lock */,
+				4BC20F18241F123F00B2C8F1 /* Sources */,
+				4BC20F19241F123F00B2C8F1 /* Frameworks */,
+				4BC20F1A241F123F00B2C8F1 /* Resources */,
+				95DC5BE9FFDA53137F438138 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calander01;
+			productName = Calander01;
+			productReference = 4BC20F1C241F123F00B2C8F1 /* Calander01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BC20F14241F123F00B2C8F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = binybing;
+				TargetAttributes = {
+					4BC20F1B241F123F00B2C8F1 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4BC20F17241F123F00B2C8F1 /* Build configuration list for PBXProject "Calander01" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BC20F13241F123F00B2C8F1;
+			productRefGroup = 4BC20F1D241F123F00B2C8F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BC20F1B241F123F00B2C8F1 /* Calander01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BC20F1A241F123F00B2C8F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC20F2F241F124000B2C8F1 /* LaunchScreen.storyboard in Resources */,
+				4BC20F2C241F124000B2C8F1 /* Assets.xcassets in Resources */,
+				4BC20F27241F123F00B2C8F1 /* Main.storyboard in Resources */,
+				4B746464241FBC9100C1FEB7 /* soso.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44BB6E4D14C43A74C0224802 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Calander01-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95DC5BE9FFDA53137F438138 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calander01/Pods-Calander01-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calander01/Pods-Calander01-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Calander01/Pods-Calander01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BC20F18241F123F00B2C8F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD89AB8247CA9840050EE49 /* UIBezierPathExtension.swift in Sources */,
+				4BC20F24241F123F00B2C8F1 /* ViewController.swift in Sources */,
+				4BC20F20241F123F00B2C8F1 /* AppDelegate.swift in Sources */,
+				4B048B5224209C380027C829 /* InsertSQL.swift in Sources */,
+				4BC20F2A241F123F00B2C8F1 /* Calander01.xcdatamodeld in Sources */,
+				4BD89AB7247CA9840050EE49 /* DataEntry.swift in Sources */,
+				4B74646A2420733F00C1FEB7 /* SettingSQL.swift in Sources */,
+				4B048B542420A50D0027C829 /* DeleteSQL.swift in Sources */,
+				4BD89AA7247CA9610050EE49 /* BasicBarEntry.swift in Sources */,
+				4B7464662420645400C1FEB7 /* InsertViewController.swift in Sources */,
+				4BD89AA6247CA9610050EE49 /* BasicBarChartPresenter.swift in Sources */,
+				4BD89AAD247CA9730050EE49 /* BeautifulBarChart.swift in Sources */,
+				4B048B562420A5E70027C829 /* SelectSQL.swift in Sources */,
+				4BD89ABB247CAADB0050EE49 /* BarChartViewController.swift in Sources */,
+				4BD89AB6247CA9840050EE49 /* CALayerExtension.swift in Sources */,
+				4B35163C247CE1460033937F /* PushAlertViewController.swift in Sources */,
+				4BD89AAC247CA9730050EE49 /* BeautifulBarEntry.swift in Sources */,
+				4BD89AB9247CA9840050EE49 /* CustomSegments.swift in Sources */,
+				4B048B582420A64B0027C829 /* Emoda_diary.swift in Sources */,
+				4BC20F22241F123F00B2C8F1 /* SceneDelegate.swift in Sources */,
+				4BD89AB5247CA9840050EE49 /* ArrayExtension.swift in Sources */,
+				4B8F4C112421DB8C0069392E /* UpdateSQL.swift in Sources */,
+				4BD89AAE247CA9730050EE49 /* BeautifulBarChartPresenter.swift in Sources */,
+				4BD89AA5247CA9610050EE49 /* BasicBarChart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BC20F25241F123F00B2C8F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BC20F26241F123F00B2C8F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BC20F2D241F124000B2C8F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BC20F2E241F124000B2C8F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BC20F31241F124100B2C8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BC20F32241F124100B2C8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BC20F34241F124100B2C8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A431A3EF205900231F2C00F2 /* Pods-Calander01.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53KNTRQ7TV;
+				INFOPLIST_FILE = Calander01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlec.biny.Calander01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4BC20F35241F124100B2C8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC30B4484AC5516BE8D20A4F /* Pods-Calander01.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53KNTRQ7TV;
+				INFOPLIST_FILE = Calander01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlec.biny.Calander01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BC20F17241F123F00B2C8F1 /* Build configuration list for PBXProject "Calander01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC20F31241F124100B2C8F1 /* Debug */,
+				4BC20F32241F124100B2C8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BC20F33241F124100B2C8F1 /* Build configuration list for PBXNativeTarget "Calander01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC20F34241F124100B2C8F1 /* Debug */,
+				4BC20F35241F124100B2C8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BC20F28241F123F00B2C8F1 /* Calander01.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BC20F29241F123F00B2C8F1 /* Calander01.xcdatamodel */,
+			);
+			currentVersion = 4BC20F29241F123F00B2C8F1 /* Calander01.xcdatamodel */;
+			path = Calander01.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BC20F14241F123F00B2C8F1 /* Project object */;
+}

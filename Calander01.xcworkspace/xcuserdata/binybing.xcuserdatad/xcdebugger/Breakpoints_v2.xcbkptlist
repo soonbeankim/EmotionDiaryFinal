@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "38D8F84F-0F72-406E-A3C5-58C5C5162BE6"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E126C210-6979-4060-96C5-A63EC4F58135"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Calander01/Model/Emoda.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FBAF97DD-18C0-45EF-BE2C-519BC2EA6E49"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Calander01/Model/Emoda_diary.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "init(diary_Seqno:diary_Emotion:diary_Title:diary_Contents:diary_Date:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FBAF97DD-18C0-45EF-BE2C-519BC2EA6E49 - 66694775854acdc2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Calander01.Emoda_diary.__allocating_init(diary_Seqno: Swift.Int, diary_Emotion: Swift.Optional&lt;Swift.Int&gt;, diary_Title: Swift.Optional&lt;Swift.String&gt;, diary_Contents: Swift.Optional&lt;Swift.String&gt;, diary_Date: Swift.Optional&lt;Swift.String&gt;, diary_Open: Swift.Optional&lt;Swift.Int&gt;) -&gt; Calander01.Emoda_diary"
+                  moduleName = "Calander01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/binybing/Desktop/iosBackUp/Calander01/Calander01/Model/Emoda_diary.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "51">
+               </Location>
+               <Location
+                  uuid = "FBAF97DD-18C0-45EF-BE2C-519BC2EA6E49 - fe642cd69ee0a32d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Calander01.Emoda_diary.init(diary_Seqno: Swift.Int, diary_Emotion: Swift.Optional&lt;Swift.Int&gt;, diary_Title: Swift.Optional&lt;Swift.String&gt;, diary_Contents: Swift.Optional&lt;Swift.String&gt;, diary_Date: Swift.Optional&lt;Swift.String&gt;, diary_Open: Swift.Optional&lt;Swift.Int&gt;) -&gt; Calander01.Emoda_diary"
+                  moduleName = "Calander01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/binybing/Desktop/iosBackUp/Calander01/Calander01/Model/Emoda_diary.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "154">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
